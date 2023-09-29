@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.button {
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(17, 32, 237);
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.row {
+  margin: 8px 0;
+}
+.row input {
+  width: 291px;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+
+.text-center {
+  text-align: center;
+  color: antiquewhite;
+  font-style: oblique;
+}
+
+.mx-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
